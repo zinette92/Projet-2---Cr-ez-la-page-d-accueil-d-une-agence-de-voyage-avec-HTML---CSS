@@ -33,33 +33,33 @@ a {
     text-decoration: none;
 }
 
-.lien_navigation {
+.navigation-link {
     margin-top: 10px; 
 }
 
-.lien_navigation a {
+.navigation-link a {
     margin-left: 70px; 
 }
 
-.lien_navigation a:hover {
+.navigation-link a:hover {
     color: #0065FC;
     border-top: 3px solid #0065FC; 
 }
 
 
 
-.logo_navigation {
+.navigation-logo {
     width:61px;
     height:19px;
     margin-top: 20px;
     margin-bottom: 40px;
 }
 
-.explications_services {
+.services-explanation {
     margin-bottom: 40px;
 }
 
-.explications_services h1{
+.services-explanation h1{
     margin-bottom: 10px;
 }
 
@@ -68,18 +68,18 @@ a {
 }
 
 
-.formulaire-de-recherche{
+.search-form{
     width: 377px;
     margin-bottom: 35px;
 }
 
-.recherche_service {
+.search-a-service {
     display: flex;
     justify-content: flex-start;
     height: 49px;
 }
 
-.icon_position_container  {
+.icon-position-container  {
     display:flex;
     justify-content: center;
     align-items: center;
@@ -89,7 +89,7 @@ a {
     color: black;
 }
 
-#champ_rechercher {
+#search-field {
     border: 1px solid  #F2F2F2;
     width:52%;
     text-align: center;
@@ -99,7 +99,7 @@ a {
 }
 
 
-.lancer_recherche {
+.btn-submit{
     border-style: none;
     border-radius: 0 15px 15px 0;
     width: 35%;
@@ -109,28 +109,28 @@ a {
     font-weight: 700;
 }
 
-.lancer_recherche_mobile {
+.btn-submit-mobile {
     display: none;
 }
 
 
-.filtres_container {
+.filters-container {
     display: flex;
     align-items: center;
     margin-bottom: 35px;
     
 }
 
-.filtres_container h2{
+.filters-container h2{
     margin-top: 10px;
 }
 
-.filtres_container div{
+.filters-container div{
     margin-left: 20px;
 
 }
 
-.filtre {
+.filter {
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -142,27 +142,27 @@ a {
     padding: 4px 19px;
 }
 
-.filtre:hover {
+.filter:hover {
     background-color: #DEEBFF;
 }
 
-.filtre i{
+.filter i{
     margin-right: 10px;
     color: #0065FC;
 }
 
-.filtre p{
+.filter p{
     font-weight: bold;
     font-size: 1.2rem;
 }
 
-.info_bar{
+.search-result{
     display: flex;
     align-items: center;
     margin-bottom: 40px;
 }
 
-.info_dot{
+.search-result-icon{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -367,7 +367,7 @@ a {
     font-size: 20px;
 }
 
-.pied-de-page {
+footer {
     display: flex;
     background-color:#F2F2F2;
 }
@@ -389,18 +389,18 @@ a {
 /* Medium devices (tablets, less/equal than 1024px) */
 @media (max-width: 1024px) {
 
-    .formulaire-de-recherche{
+    .search-form{
         width: 400px;
     }
     
-    .filtres_container{
+    .filters-container{
         flex-wrap: wrap;
     }
-    .filtres_container h2{
+    .filters-container h2{
         width:100%;
     }
 
-    .filtres_container div{
+    .filters-container div{
         margin-left: 0;
         margin-right: 10px;
     }
@@ -536,20 +536,20 @@ a {
     
     }
 
-    .logo_navigation {
+    .navigation-logo {
         width:95px;
         height:30px;
         margin-top: 20px;
         margin-bottom: 25px;
     }
 
-    .lien_navigation{
+    .navigation-link{
         width: 100%;
         display: flex;
       
     }
 
-    .lien_navigation a{
+    .navigation-link a{
         
          
         margin: 0;
@@ -561,40 +561,40 @@ a {
 
     }
 
-    .lien_navigation a:hover {
+    .navigation-link a:hover {
         color: #0065FC;
         border-top: none;
         border-bottom: 3px solid #0065FC; 
 
     }
 
-    .explications_services{
+    .services-explanation{
         display: flex;
         flex-direction: column;
         margin-left: 15px;
     }
 
-    .explications_services h1 {
+    .services-explanation h1 {
         font-size: 1.5rem;
         margin-bottom: 5px;
         margin-top: 20px;
     }
 
-    .formulaire-de-recherche{
+    .search-form{
         width: 100%;
     }
 
-    .recherche_service {
+    .search-a-service {
         position: relative;
         margin-left: 15px;
         margin-right: 15px;
     }
 
-    .icon_position_container  {
+    .icon-position-container  {
         width: 13%;
     }
         
-    #champ_rechercher {
+    #search-field {
         width:87%;
         text-align: left;
         padding-left: 20px;
@@ -603,11 +603,11 @@ a {
     }
     
 
-    .lancer_recherche {
+    .btn-submit {
         display: none;
     }
 
-    .lancer_recherche_mobile {
+    .btn-submit-mobile {
         display:inline;
         border-style: none;
         position:absolute;
@@ -622,28 +622,28 @@ a {
         font-weight: 700;
     }
    
-    .filtres_container {
+    .filters-container {
         flex-wrap: wrap;
         justify-content: space-around;
     }
   
-    .filtres_container h2{
+    .filters-container h2{
         width:100%;
         margin-left: 15px;
         margin-bottom: 20px;
     }
 
-    .filtre{
+    .filter{
         width: 35%;
         margin-bottom: 10px;
     }
 
-    .filtre p{
+    .filter p{
         font-size: 0.9rem;
         font-weight: bold;
     }
 
-    .info_bar{
+    .search-result{
         margin-left: 15px;
     }
 
@@ -732,7 +732,7 @@ a {
         align-items: center;
     }
     
-    .pied-de-page{
+    footer{
         flex-direction: column;
     }
 
