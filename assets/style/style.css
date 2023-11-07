@@ -701,13 +701,13 @@ footer {
     
     footer {
         flex-direction: column;
+        gap: 30px;
         padding-left: 0px;
     }
 
     .sub-footer {
         width: fit-content;
-        margin-top: 10px;
-        padding: 20px
+        padding-left: 20px
     }
 
 
